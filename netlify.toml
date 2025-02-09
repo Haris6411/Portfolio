@@ -1,0 +1,7 @@
+[build]
+base = "/"
+publish = "build/web"
+command = "flutter build web"
+
+[build.environment]
+NODE_VERSION = "16"
