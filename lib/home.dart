@@ -210,11 +210,11 @@ class BiographySection extends StatelessWidget {
           ),
         ),
         SizedBox(height: 10),
-        Text(
-          'Tayyab Ashfaq is a MSC. candidate from the Graduate Comsats, University of Hertfordshire, UK. His research interests include the state estimation, robotics, wearable sensors, machine learning,' +
-              'and biomedical engineering. His current research involves the development of wearable human motion capture systems',
-          style: TextStyle(fontSize: 16),
-        ),
+Text(
+  'Tayyab Ashfaq is pursuing his second Master’s degree in Power Electronics and Controls at the University of Hertfordshire, UK. His research interests include load frequency control, energy management in microgrids, maximum power point tracking, economic optimization of energy systems, and neural network modeling. His publications include work on automatic generation control in renewable-integrated power systems and PHEV charging station management in microgrids.',
+  style: TextStyle(fontSize: 16),
+),
+
       ],
     );
   }
